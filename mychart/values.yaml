@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: quay.io/nginx-log-exporter/nginx-log-exporter-linux-amd64
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "main"
 
 imagePullSecrets: []
 nameOverride: ""
